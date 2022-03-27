@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include site_service *.css
+recursive-include site_service *.csv
+recursive-include site_service *.html
+recursive-include site_service *.ico
+recursive-include site_service *.js
+recursive-include site_service *.json
+recursive-include site_service *.md
+recursive-include site_service *.png
+recursive-include site_service *.py
+recursive-include site_service *.svg
+recursive-include site_service *.txt
+recursive-exclude site_service *.pyc
